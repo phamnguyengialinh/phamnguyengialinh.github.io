@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phạm Nguyễn Gia Linh</title>
+    <style>
+        body {
+            background: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .name {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            color: #2d6cdf;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #2d6cdf 0%, #ff7eb3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: shine 2s linear infinite;
+        }
+        @keyframes shine {
+            0% {
+                filter: brightness(1);
+            }
+            50% {
+                filter: brightness(1.5);
+            }
+            100% {
+                filter: brightness(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="name">Phạm Nguyễn Gia Linh</div>
+</body>
+</html>
